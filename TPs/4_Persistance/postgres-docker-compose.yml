@@ -1,6 +1,6 @@
 services:
   panache-postgresql:
-    image: postgres
+    image: postgres:15
     volumes:
       - panache_db:/var/lib/postgresql
       - panache_data:/var/lib/postgresql/data
